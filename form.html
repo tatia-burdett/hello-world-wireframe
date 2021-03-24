@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+  <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+  <nav><a>Navigation</a></nav>
+  <main>
+    <header>
+      <h1>Hello World</h1>
+      <h2>Say hello!</h2>
+    </header>
+    <section>
+      <form id='user-comment'>
+        <section class='form-section'>
+          <label for='user-name'>Name or Nickname:</label>
+          <input type='text' name='user-name' placeholder='Dr. Who' required>
+        </section>
+        <section class='form-section'>
+          <label for='user-location'>Location:</label>
+          <input type='text' name='user-location' placeholder='Gallifrey'>
+        </section>
+        <section class='form-section comment-section'>
+          <label for='comment'>Say something:</label>
+          <textarea name='comment' required></textarea>
+        </section>
+        <section>
+          <button>Submit</button>
+        </section>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

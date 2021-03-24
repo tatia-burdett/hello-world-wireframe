@@ -32,9 +32,22 @@ main {
 
 header {
   text-align: center;
+  padding-bottom: 20px;
 }
 
-.user-post {
-  padding: 15px;
-  width: 75vw;
+form {
+  border: 1px solid black;
+}
+
+.form-section {
+  padding: 20px;
+}
+
+.comment-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-section label {
+  padding-bottom: 10px;
 }
