@@ -58,3 +58,11 @@ blockquote {
   color: #2e2e2e;
   font-style: italic;
 }
+
+footer {
+  background-color: #2e2e2e;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 25px 0;
+}
